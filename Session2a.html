@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <style>
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 25%;
+            border: 5px solid rgb(220, 15, 29);
+            background-color: white;
+            line-height: 2;
+            text-align: center;
+
+
+        }
+        body {
+      background-image: url('images.jfif');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      
+    }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <h1 class="text-center">Booking form for event recreation </h1>
+        <form action="" method="post">
+            <label for="">Identification Number </label>
+            <input type="text"> <br/>
+
+            <label for="">Phone Number</label>
+            <input type="text"> <br/>
+
+            <label for="">Date</label>
+            <input type="date"> <br/>
+
+            <label for="">Event type</label>
+
+            <select>
+                <option value="session1"> Graduation </option>
+                <option value="session2">Conference</option>
+                <option value="session3">Public Seminar</option>
+            </select>
+            <p><b>Do you agree to our <a href='Session1.html'>policies</a>?</b></p>
+          
+            <input type="radio" id="yes" name="choice" value="y">
+            <label for="yes">Yes, I agree to the safety policies</label><br>
+
+            <input type="radio" id="no" name="choice" value="n">
+            <label for="no">No, I do not agree to the safety policies</label><br>
+           
+
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
